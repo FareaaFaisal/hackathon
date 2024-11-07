@@ -1,0 +1,146 @@
+* {
+    padding: 0;
+    margin: 0;
+    
+}
+
+html,body{
+    background-color: #AF8260;
+}
+.static-resume {
+    margin: 50px auto;  /* Center the resume box horizontally */
+    /* margin: 20px; */
+    border: 4px solid white;  /* Create a border around the entire box */
+    height: 80%;
+    width: 70%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    justify-content: left;
+}
+
+.left-side-container {
+    width: 32%;
+    margin-bottom: 0px;
+    background-color: #795757;
+  
+}
+/* ------------------------------------- */
+.profile h1{
+    font-family: Century Gothic;
+    padding-top: 20px;
+    padding-left: 50px;
+    color: white;
+}
+.profile{
+    /* color:white; */
+    color:#181C14;
+    font-family: Arial;
+    padding-left:20px;
+    padding-right: 10px;
+    text-wrap: wrap;
+}
+.address h1{
+    font-family: Century Gothic;
+    padding-top: 20px;
+    padding-left: 50px;
+    color: white;
+}
+.address{
+    /* color:white; */
+    color:#181C14;
+    font-family: Arial;
+    padding-left:20px;
+    padding-right: 10px;
+    text-wrap: wrap;
+}
+.contact h1{
+    font-family: Century Gothic;
+    padding-top: 20px;
+    padding-left: 50px;
+    color: white;
+}
+.contact{
+    /* color:white; */
+    color:#181C14;
+    font-family: Arial;
+    padding-left:20px;
+    padding-right: 10px;
+    text-wrap: wrap;
+}
+.skills h1{
+    font-family: Century Gothic;
+    padding-top: 20px;
+    padding-left: 100px;
+    color: white;
+}
+.skills{
+    /* color:white; */
+    color:#181C14;
+    font-family: Arial;
+    padding-left:20px;
+    padding-right: 10px;
+    text-wrap: wrap;
+}
+/* -------------------------------- */
+.skills {
+    list-style: none; 
+    padding: 0;
+    margin: 0;
+}
+
+
+.skills li {
+    margin-top: 20px;
+    list-style: none;
+    width: 50%;
+    margin-left: 20px;
+    font-weight: 700;
+}
+
+.bar {
+    background-color: hsl(221, 39%, 68%);
+    display: block;
+    height: 20px;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    border-radius: 20px;
+    overflow: hidden;
+    width: 100%;  /* Fill the available width */
+    margin-left: 100px;
+}
+
+.bar span {
+    height: 20px;
+    float: left;
+    background: #3B3030;
+}
+
+/* filling bars */
+.html {
+    width: 80%;
+}
+
+.css {
+    width: 60%;
+}
+
+.ts {
+    width: 60%;
+}
+
+.c {
+    width: 70%;
+ 
+}
+.ms-office {
+    width: 70%;
+  
+}
+
+/*      RIGHT SIDE CONTAINER         */
+.right-side-container{
+    width:78%;
+    height:100%;
+    background-color: white;
+}
+
