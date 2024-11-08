@@ -1,0 +1,195 @@
+@import url("https://fonts.googleapis.com/css?family=Sacramento&display=swap");
+/* General Styles */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+     height: 100vh;
+     margin-top: 400px;
+     margin-bottom: 300px;
+    
+   /* background : linear-gradient(135deg, #ff7e5f, #feb47b); 
+     background-size: 400% 400%;
+    animation: gradientBackground 5s ease infinite; */
+}
+
+.container{
+ width:45%;
+}
+
+#heading{
+  font-size: 60px;
+  /* text-shadow: 0 0 5px #f562ff, 0 0 15px #f562ff, 0 0 25px #f562ff,
+    0 0 20px #f562ff, 0 0 30px #890092, 0 0 80px #890092, 0 0 80px #890092;
+  color: #fccaff; */
+  text-shadow: 0 0 5px #D83A56, 0 0 15px #D83A56, 0 0 20px #D83A56, 0 0 40px #D83A56, 0 0 60px #804674, 0 0 10px #D83A56, 0 0 98px #804674;
+    color: #fff;
+  font-family: "Sacramento", cursive;
+  text-align: center;
+  /* animation: blink 12s infinite; */
+  /* -webkit-animation: blink 12s infinite; */
+}
+
+
+
+@-webkit-keyframes blink {
+  20%,
+  24%,
+  55% {
+    color: #111;
+    text-shadow: none;
+  }
+
+  0%,
+  19%,
+  21%,
+  23%,
+  25%,
+  54%,
+  56%,
+  100% 
+  {
+/*     color: #fccaff;
+    text-shadow: 0 0 5px #f562ff, 0 0 15px #f562ff, 0 0 25px #f562ff,
+      0 0 20px #f562ff, 0 0 30px #890092, 0 0 80px #890092, 0 0 80px #890092; */
+  text-shadow: 0 0 5px #D83A56, 0 0 15px #D83A56, 0 0 20px #D83A56, 0 0 40px #D83A56, 0 0 60px #804674, 0 0 10px #D83A56, 0 0 98px #804674;
+    color: #fff;
+  }
+}
+
+@keyframes blink {
+  20%,
+  24%,
+  55% {
+    color: #111;
+    text-shadow: none;
+  }
+
+  0%,
+  19%,
+  21%,
+  23%,
+  25%,
+  54%,
+  56%,
+  100% {
+/*     color: #fccaff;
+    text-shadow: 0 0 5px #f562ff, 0 0 15px #f562ff, 0 0 25px #f562ff,
+      0 0 20px #f562ff, 0 0 30px #890092, 0 0 80px #890092, 0 0 80px #890092; */
+  text-shadow: 0 0 5px #D83A56, 0 0 15px #D83A56, 0 0 20px #D83A56, 0 0 40px #D83A56, 0 0 60px #804674, 0 0 10px #D83A56, 0 0 98px #804674;
+    color: #fff;
+  }
+}
+
+
+
+
+label{
+    display: block;
+    margin-bottom:5px;
+    font-weight: bold;
+    color: #0b454d;
+    font-size: 18px;
+}
+
+legend{
+    margin-bottom:10px;
+    font-weight: bolder;
+    /* color: #FF8080; */
+    color:#804674;
+    font-size: 25px;
+}
+fieldset{
+    margin-bottom: 20px;
+    border: 2px solid #804674;
+}
+
+legend:hover{
+    color: #C33764;  /* fallback for old browsers */
+color: -webkit-linear-gradient(to top, #1D2671, #C33764);  /* Chrome 10-25, Safari 5.1-6 */
+color: linear-gradient(to top, #1D2671, #C33764); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+label:hover{
+    color: #20002c;  /* fallback for old browsers */
+    color: -webkit-linear-gradient(to top, #cbb4d4, #20002c);  /* Chrome 10-25, Safari 5.1-6 */
+    color: linear-gradient(to top, #cbb4d4, #20002c); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+
+}
+textarea{
+    height: 130px;
+    border-radius: 10px;
+}
+
+input[type="text"], input[type="email"], textarea{
+    width:100%;
+    padding: 10px;
+    box-sizing: border-box;
+    border:2px solid #35A29F;
+    box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px, rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border-radius: 10px;
+}
+
+input[type="tel"]{
+    border-radius: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+    border:2px solid #35A29F;
+    margin-top: 5px;
+}
+
+.hidden{
+     display: none;   /* only show gerated resumeafter button is clicked */
+    
+}
+/* ------------------------- */
+/* generated resume css */
+#resumePage img{
+width: 160px;
+height: 180px;
+object-fit: cover;
+border-radius:50px;
+margin: auto;
+border: 3px solid #804674;
+display: block;
+float: right;
+}
+#resumePage{
+  
+border:2px solid black;
+margin-left: 40px;
+padding:20px;
+width:40%;
+height:100vh;
+}
+
+#resumePage h1{
+font-size: 40px;
+}
+
+/* Button Styling */
+button {
+    padding: 0.85em 1.8em;
+    margin-top: 25px;
+    border: none;
+    color: #fff;
+    font-weight: 600;
+    background: linear-gradient(135deg, #804674, #C33764);
+    border-radius: 10px;
+    cursor: pointer;
+    margin-right: 1em;
+    font-size: 1em;
+}
+
+button:hover {
+    background: linear-gradient(135deg, #50CB93, #1D2671);
+    transform: scale(1.07);
+}
